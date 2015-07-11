@@ -1,0 +1,18 @@
+body {background-color: white}
+h2 { font-size: 35px; font-family: Lobster; color: green;}
+h3 { font-size: 25; font-family: Bree, Serif}
+.intro {font-family: SimSun; color: red;}
+
+.col-md-8 {border-style: inset;}
+.postal {color: blue; font-size: 23px; max-width: 900px}
+p {color: red;}
+.change {color: orange; font-size: : 25px;}
+.change1 {color: green; font-size: 25px}
+.big {font-size: 60px;}
+.col-md-1 {height: 20px; background-color: black}
+.col-md-11 {height: 20px; background-color: black}
+.title {font-family: Poiret; font-size: 35px; color: green; background-color: yellow}
+.paper {font-family: Bree; font-size: 25px; max-width: 550px}
+.health {font-family: Lobster; font-size: 30px}
+.med {font-family: Bree; font-size: 25px}
+

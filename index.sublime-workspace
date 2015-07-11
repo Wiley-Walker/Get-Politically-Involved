@@ -1,0 +1,461 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"g",
+				"getforecast10day"
+			],
+			[
+				"get",
+				"getforecast10day"
+			],
+			[
+				"ge",
+				"getConditions"
+			],
+			[
+				"App",
+				"app"
+			],
+			[
+				"form",
+				"formfield"
+			],
+			[
+				"style",
+				"stylesheets"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"con",
+				"controllers"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"backgrond",
+				"background-color"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"the",
+				"theFormPostData"
+			],
+			[
+				"found",
+				"foundconfession"
+			],
+			[
+				"user",
+				"UserController"
+			],
+			[
+				"User",
+				"UserController"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"num",
+				"numArray"
+			],
+			[
+				"c",
+				"colorArray"
+			],
+			[
+				"d",
+				"Description"
+			],
+			[
+				"date",
+				"dateISO"
+			],
+			[
+				"cop",
+				"complete"
+			],
+			[
+				"p",
+				"priority"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"h",
+				"height	Attr"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"border-topra",
+				"border-top-right-radius"
+			],
+			[
+				"bo",
+				"bottomElement"
+			],
+			[
+				"o",
+				"onmouseout"
+			],
+			[
+				"hid",
+				"hiddenDiv"
+			],
+			[
+				"t",
+				"targetDiv"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pr",
+				"prototype"
+			],
+			[
+				"a",
+				"Animal"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packag",
+		"selected_items":
+		[
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nss/projects/color1/js/Controllers/conditions.js",
+		"/Users/nss/projects/color1/index.html",
+		"/Users/nss/projects/color1/views/conditions.html",
+		"/Users/nss/projects/color1/js/Controllers/webcams.js",
+		"/Users/nss/projects/color1/css/main.css",
+		"/Users/nss/projects/color1/js/app.js",
+		"/Users/nss/projects/color1/views/home.html",
+		"/Users/nss/projects/color1/js/wu.js",
+		"/Users/nss/projects/color1/views/webcam.html",
+		"/Users/nss/projects/color1/js/Controllers/wu.js",
+		"/Users/nss/projects/color1/views/tenday.html",
+		"/Users/nss/projects/color1/js/Controllers/tenday.js",
+		"/Users/nss/projects/color1/js/Controllers/home.js",
+		"/Users/nss/projects/color1/views/index.html",
+		"/Users/nss/projects/color1/views/index.js",
+		"/Users/nss/projects/color1/views/index.jade",
+		"/Users/nss/projects/color1/Routes/webcams.js",
+		"/Users/nss/projects/color1/Routes/tenday.js",
+		"/Users/nss/projects/color1/Routes/conditions.js",
+		"/Users/nss/projects/color1/Controllers/conditions.js",
+		"/Users/nss/projects/color1/Controllers/tenday.js",
+		"/Users/nss/projects/color1/Controllers/webcams.js",
+		"/Users/nss/projects/color1/Controllers/home.js",
+		"/Users/nss/projects/color1/Routes/conditions",
+		"/Users/nss/projects/color1/package.json",
+		"/Users/nss/Downloads/angular.min.js",
+		"/Users/nss/projects/myToDoApp/angular-todo/public/js/controllers/edit.js",
+		"/Users/nss/projects/myToDoApp/angular-todo/views/partials/edit.jade",
+		"/Users/nss/projects/myToDoApp/angular-todo/public/js/controllers/listTodo.js",
+		"/Users/nss/projects/myToDoApp/angular-todo/views/layout.jade",
+		"/Users/nss/projects/myToDoApp/angular-todo/models/todo.js",
+		"/Users/nss/projects/myToDoApp/angular-todo/views/partials/todo.jade",
+		"/Users/nss/projects/myToDoApp/angular-todo/public/js/app.js",
+		"/Users/nss/projects/myToDoApp/angular-todo/public/js/controllers/todocontroller.js",
+		"/Users/nss/projects/myToDoApp/angular-todo/views/partials/listTodo.jade",
+		"/Users/nss/projects/myToDoApp/angular-todo/public/js/controllers/authcontroller.js",
+		"/Users/nss/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/nss/projects/myToDoApp/angular-todo/public/css/app.css",
+		"/Users/nss/projects/myToDoApp/angular-todo/views/partials/nav.jade",
+		"/Users/nss/projects/myToDoApp/angular-todo/views/partials/home.jade",
+		"/Users/nss/projects/myToDoApp/angular-todo/public/js/controllers/navcontroller.js",
+		"/Users/nss/projects/newtodo/angular-express/public/js/controllers/homepageCnt.js",
+		"/Users/nss/projects/newtodo/angular-express/public/js/controllers/regController.js",
+		"/Users/nss/projects/newtodo/angular-express/views/partials/register.jade",
+		"/Users/nss/projects/newtodo/angular-express/public/js/controllers/userController.js",
+		"/Users/nss/projects/newtodo/angular-express/views/layout.jade",
+		"/Users/nss/projects/newtodo/angular-express/public/js/controllers/controllers.js",
+		"/Users/nss/projects/newtodo/angular-express/public/js/app.js",
+		"/Users/nss/projects/newtodo/angular-express/userController.js",
+		"/Users/nss/projects/newtodo/angular-express/public/js/controllers.js",
+		"/Users/nss/projects/newtodo/angular-express/views/index.jade",
+		"/Users/nss/projects/newtodo/angular-express/views/partials/makeTask.jade",
+		"/Users/nss/projects/newtodo/angular-express/app.js",
+		"/Users/nss/projects/newtodo/angular-express/public/css/app.css",
+		"/Users/nss/projects/newtodo/angular-express/views/partials/login.jade",
+		"/Users/nss/projects/newtodo/angular-express/routes/users.js",
+		"/Users/nss/projects/newtodo/angular-express/views/partials/taskList.jade",
+		"/Users/nss/projects/newtodo/angular-express/views/partials/partial2.jade",
+		"/Users/nss/projects/newtodo/angular-express/routes/index.js",
+		"/Users/nss/projects/newtodo/angular-express/models/todo.js",
+		"/Users/nss/projects/newtodo/angular-express/views/partials/partial1.jade",
+		"/Users/nss/projects/portfolio2/views/partials/nav.jade",
+		"/Users/nss/projects/portfolio2/views/partials/contact.jade",
+		"/Users/nss/projects/portfolio2/views/partials/about.jade",
+		"/Users/nss/projects/portfolio2/public/app/controllers.js",
+		"/Users/nss/projects/portfolio2/public/app/app.js",
+		"/Users/nss/projects/portfolio2/views/partials/index.jade",
+		"/Users/nss/projects/portfolio2/routes/users.js",
+		"/Users/nss/projects/portfolio2/routes/index.js",
+		"/Users/nss/projects/portfolio2/public/javascripts/index.js",
+		"/Users/nss/projects/portfolio2/public/javascripts/angular-route.js",
+		"/Users/nss/projects/portfolio2/views/layout.jade",
+		"/Users/nss/projects/portfolio2/views/partials/needs.jade",
+		"/Users/nss/projects/portfolio2/public/javascripts/angular.js",
+		"/Users/nss/projects/portfolio2/views/index.jade",
+		"/Users/nss/projects/portfolio2/app.js",
+		"/Users/nss/projects/portfolio2/build.sh",
+		"/Users/nss/projects/portfolio2/bower.json",
+		"/Users/nss/projects/needs/needsit/app.js",
+		"/Users/nss/projects/portfolio2/.gitignore",
+		"/Users/nss/projects/portfolio2/views/partials/gitignore",
+		"/Users/nss/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/nss/projects/portfolio2/public/stylesheets/style.css",
+		"/Users/nss/projects/portfolio2/public/stylesheets/bootstrap.min.css",
+		"/Users/nss/projects/portfolio2/public/app/controller.js",
+		"/Users/nss/projects/portfolio2/public/javascripts/jquery.js",
+		"/Users/nss/projects/portfolio2/public/javascripts/bootstrap.min.js",
+		"/Users/nss/projects/npm-debug.log",
+		"/Users/nss/projects/savings3/jade/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/browser_build/bson.js",
+		"/Users/nss/projects/savings3/jade/views/index.jade",
+		"/Users/nss/projects/savings3/jade/app.js",
+		"/Users/nss/projects/savings3/jade/node_modules/jade/Readme_zh-cn.md",
+		"/Users/nss/projects/savings3/jade/models/user.js",
+		"/Users/nss/projects/savings3/jade/views/login.jade",
+		"/Users/nss/projects/savings3/jade/routes/register.js",
+		"/Users/nss/projects/savings3/jade/bin/www",
+		"/Users/nss/projects/savings3/jade/routes/users.js",
+		"/Users/nss/projects/savings3/jade/views/register.jade",
+		"/Users/nss/projects/savings3/jade/views/layout.jade",
+		"/Users/nss/projects/savings3/jade/routes/buy.js",
+		"/Users/nss/projects/savings3/jade/routes/login.js",
+		"/Users/nss/projects/savings3/jade/routes/index.js",
+		"/Users/nss/projects/savings3/jade/userController.js",
+		"/Users/nss/projects/savings3/jade/public/javascripts/userController.js",
+		"/Users/nss/projects/savings3/jade/public/javascripts/validate.js",
+		"/Users/nss/projects/savings3/jade/public/javascripts/main.js",
+		"/Users/nss/projects/savings3/jade/package.json",
+		"/Users/nss/projects/savings3/jade/public/javascripts/item.js",
+		"/Users/nss/projects/savings3/jade/savings.json",
+		"/Users/nss/projects/savings3/jade/public/stylesheets/login.css",
+		"/Users/nss/projects/savings3/jade/public/stylesheets/main.css",
+		"/Users/nss/projects/savings3/jade/public/images/twins.jpg",
+		"/Users/nss/projects/savings3/jade/public/images/triplets.jpg",
+		"/Users/nss/projects/needs/needsit/views/index.jade",
+		"/Users/nss/projects/needs/needsit/public/app/controller.js",
+		"/Users/nss/projects/needs/needsit/views/partials/about.jade",
+		"/Users/nss/projects/needs/needsit/views/partials/needs.jade",
+		"/Users/nss/projects/needs/needsit/views/partials/nav.jade",
+		"/Users/nss/projects/needs/needsit/views/layout.jade",
+		"/Users/nss/projects/needs/needsit/public/app/app.js",
+		"/Users/nss/projects/needs/needsit/build.sh",
+		"/Users/nss/projects/needs/needsit/.gitignore",
+		"/Users/nss/projects/needs/needsit/bower.json",
+		"/Users/nss/projects/needs/needsit/public/stylesheets/style.css",
+		"/Users/nss/projects/needs/needsit/views/partial.jade",
+		"/Users/nss/projects/needs/needsit/public/App/app.js",
+		"/Users/nss/projects/needs/needsit/views/partial/index.jade",
+		"/Users/nss/projects/needs/needsit/views/partial/nav.jade"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"task",
+			"|         \n		    input#todoDone(type='checkbox', name='complete')\n		    |       \n		    input.submitButton(type='submit')\n			|     \n	        script(src='//code.jquery.com/jquery-1.11.2.min.js')\n            |     \n		    script(src='http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js')\n		    |     \n		    script(src='http://jqueryvalidation.org/files/dist/additional-methods.min.js')\n		    |     \n		    script(src='/javascripts/validate.js')\n",
+			"throw",
+			"/*!",
+			"models",
+			"currentTodo",
+			"<!"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"authctrl",
+				"public/js/controllers/authcontroller.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

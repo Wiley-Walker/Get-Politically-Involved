@@ -2,43 +2,58 @@
 <html>
 	<head>
   		<meta charset="utf-8">
-   		<title>Weather App</title>
+   		<title>Get Politically Involved</title>
    			<!-- Latest compiled and minified CSS -->
    			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
    			<!-- Optional theme -->
    			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
    			<link rel="stylesheet" href='/css/main.css'>
+        <link href='http://fonts.googleapis.com/css?family=Poiret+One|Quicksand|Lobster|' rel='stylesheet' type='text/css'>
 	</head>
 	<body ng-app="myApp">
+    <div class="row">
+      <div class="col-md-1">-</div>
+      <div class="col-md-11">-</div>
+    </div>
 		<nav class="navbar navbar-default">
-			<div class="navbar-header">
-				<a class="nav-brand" href="/#/">Weather</a>
-			</div>
-			<div>
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="/#/conditions">Condtitions</a>
-					</li>
-					<li><a href="/#/tenday">Tenday</a></li>
-					<li><a href="/#/webcams">Webcams</a></li>
+			 
+      <div>
+        <ul class="nav navbar-nav">
+          <li><a href="/#/Home">Home</a></li>
+          <li><a href="/#/legislators">Legislators</a></li>
+          <li><a href="/#/zipcodes">U.S. Zip Codes</a></li>
+          <li><a href="/#/webcams">Money</a></li>
+					<li><a href="/#/vote">Vote In Our Poll</a></li>
+          <li><a href="/#/current">Current Issues</a></li>
+          <li class="title"> Get Politically Involved </li>
 				</ul>
 			</div>
 		</nav>	
-  		<div ng-view>
-  			<p>Looping with ng-repeat:</p>
-  		</div>	
- 
+		<div ng-view>
+      <ul>
+        <li><span>Nexus S</span>
+          <p>Fast just got faster with Nexus S.</p>
+        </li>
+        <li><span>Motorola XOOM™ with Wi-Fi</span>
+          <p>The Next, Next Generation tablet.</p>
+        </li>
+      </ul>  
+		</div>	
 
-    	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.16/angular-route.js"></script>
-    	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.16/angular-route.js">
+    </script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
  		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
  		<!-- Latest compiled and minified JavaScript -->
-    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    	<script src="js/app.js"></script>
-    	<script src="js/Controllers/conditions.js"></script>
-    	<script src="js/Controllers/home.js"></script>
-    	<script src="js/Controllers/tenday.js"></script>
-    	<script src="js/Controllers/webcams.js"></script>
-    	<script src="js/Controllers/wu.js"></script>
-	</body>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/Controllers/legislators.js"></script>
+    <script src="js/Controllers/home.js"></script>
+    <script src="js/Controllers/tenday.js"></script>
+    <script src="js/Controllers/webcams.js"></script>
+    <script src="js/Controllers/wu.js"></script>
+  </body>
 </html>

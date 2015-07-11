@@ -1,0 +1,56 @@
+<body>
+ <div class="row">
+   <div class="col-md-3"> </div>
+   <div class="col-md-9"><h2>This page will help you locate legislators in most areas</h2> </div>
+    
+</div> 
+ 
+<div class="row">
+  <div class="col-md-5">
+    
+  </div>
+  <div class="col-md-4">
+    <h3 style="text align: center;">Enter a valid U.S. Zipcode</h3>
+  </div>
+</div>     
+
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-6">  
+    <form>
+      <div class='form-group'>
+        <input id='zip' ng-model='zip' name='zip'>
+  	    <button ng-click='getLegislators()' class='btn btn-success'>Get Legislators
+  	    </button>
+      </div>
+    </form>
+  </div>
+</div>        
+        
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-3">
+    <div ng-repeat="senator in senators">
+      <table class="table table-hover"  style="width:250px">
+          <td style="width: 300px">
+            <tr> 
+              <h3 style="color: blue"> Name:</h3>
+              <h4 style="color: red">{{senator.first_name}} {{senator.last_name}}</h4>  
+              <h4 style="color: blue">State: {{senator.state_name}} </h4> 
+               <iframe  src="{{senator.website}}" width="800" height="400"></iframe>
+            </tr>
+          </td>
+      </table>
+    </div>
+  </div>
+</div>
+
+<style> 
+ 
+
+
+
+
+ 
+ 
+
