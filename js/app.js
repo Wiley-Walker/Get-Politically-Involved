@@ -24,6 +24,10 @@ myApp.config(function ($routeProvider,$sceProvider) {
       templateUrl: 'views/zipCodes.html',
       controller: 'zipsctrl'
     }).
+    when('/vote',{
+      templateUrl: 'views/polls.html',
+      controller: 'mycontroller'
+    }).
     otherwise({
       redirectTo: '/'
     });

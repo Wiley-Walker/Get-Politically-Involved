@@ -9,10 +9,34 @@ p {color: red;}
 .change {color: orange; font-size: : 25px;}
 .change1 {color: green; font-size: 25px}
 .big {font-size: 60px;}
-.col-md-1 {height: 20px; background-color: black}
+.col-md-2 {height: 20px; background-color: black}
 .col-md-11 {height: 20px; background-color: black}
 .title {font-family: Poiret; font-size: 35px; color: green; background-color: yellow}
 .paper {font-family: Bree; font-size: 25px; max-width: 550px}
 .health {font-family: Lobster; font-size: 30px}
 .med {font-family: Bree; font-size: 25px}
+.chip {font-size: 25px}
+.covers {font-size: 20px}
+.e {font-size:85px;}
+.m {font-size:85px; margin-top: 80px}
+.i {font-size:85px; margin-top: 160px}
+.s {font-size:85px; margin-top: 240px}
+.s1 {font-size:85px; margin-top: 320px}
+.i1 {font-size:85px; margin-top: 400px}
+.o {font-size:85px; margin-top: 480px}
+.n {font-size:85px; margin-top: 560px}
+.donald 
+{width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url('http://a3.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE5NDg0MDU1MTUyNzIzNDcx.jpg') no-repeat;}
 
+.ted
+{width: 400px;
+	height: 400px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url('https://upload.wikimedia.org/wikipedia/commons/8/87/Ted_Cruz,_official_portrait,_113th_Congress.jpg') no-repeat;}
